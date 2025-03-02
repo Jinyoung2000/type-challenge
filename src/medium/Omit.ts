@@ -13,3 +13,5 @@ type TodoPreview = MyOmit<Todo, "description" | "title">;
 const todo: TodoPreview = {
   completed: false,
 };
+
+export {};
